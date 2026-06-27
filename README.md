@@ -97,3 +97,9 @@ Los logs de acceso y errores del servidor Nginx se transmiten en tiempo real a *
 * **Grupo de Logs**: `/ecs/frontend-service`
 * **Prefijo de Logs**: `ecs`
 * Esto permite verificar el correcto acceso de los usuarios a la página web y descartar problemas de carga del frontend.
+
+---
+
+## ⚡ Estado del Despliegue
+* **Último Commit**: Despliegue inicial activado vía GitHub Actions.
+
