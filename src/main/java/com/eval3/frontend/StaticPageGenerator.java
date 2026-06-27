@@ -11,6 +11,10 @@ public class StaticPageGenerator {
     private static final String OUTPUT_DIR = "output";
 
     private static String getEnv(String key, String defaultValue) {
+        String systemEnv = System.getenv(key);
+        if (systemEnv != null && !systemEnv.trim().isEmpty()) {
+            return systemEnv.trim();
+        }
         Path envPath = Paths.get(".env");
         if (Files.exists(envPath)) {
             try {
