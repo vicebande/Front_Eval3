@@ -10,7 +10,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: product-frontend
   ECS_SERVICE: frontend-service
-  ECS_CLUSTER: eva3-cluster
+  ECS_CLUSTER: advanced-shark-9cocx5
   ECS_TASK_DEFINITION: task-definition.json
   CONTAINER_NAME: frontend-container
 
